@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index:50;
+}
+.nav{
+    padding:10px;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position:sticky;
+    top: 0;
+    margin-bottom:32px;
+    z-index:100;
+}
+.nav-list{
+    font-size: 32px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.front-contain{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.front-style{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.front-img{
+    margin-left: 120px;
+}
+.tag{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    align-self: self-start;
+}
+h1{
+    font-size:72px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 0;
+}
+.ex{
+    background: #ffc066;
+    border: none;
+    align-self: self-start;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom:50px;
+    justify-content: center;
+}
+.card1{
+    display: flex;
+    padding: 20px;
+    gap:20px;
+}
+.card-info{
+    width: 254px;
+}
+h3{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.divider{
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin: 50px 0;
+}
+.menu .tag{
+    align-self: center;
+}
+h2{
+    align-self: center;
+}
+.menu-list{
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+     "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+.menu-image{
+    border-radius:20px;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+.list1{
+    grid-area: I1;
+    
+}
+.list1:hover{
+    transform: scale(1.1);
+    
+
+}
+.list2{
+    grid-area: I2;
+}
+.list2:hover{
+    transform: scale(1.1);
+}
+
+.list3{
+    grid-area: I3;
+}
+.list3:hover{
+    transform: scale(1.1);
+}
+
+.list4{
+    grid-area: I4;
+}
+.list4:hover{
+    transform: scale(1.1);
+}
+
+.list5{
+    grid-area: I5;
+}
+.list5:hover{
+    transform: scale(1.1);
+}
+
+.list6{
+    grid-area: I6;
+}
+.list6:hover{
+    transform: scale(1.1);
+}
+
+.list7{
+    grid-area: I7;
+}
+
+.list7:hover{
+    transform: scale(1.1);
+}
+.footer-container{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: rgb(204, 162, 168);
+    max-width: 1200px;
+    
+    
+}
+.social{
+    display: flex;
+    gap: 15px;
+    font-size: 32px;
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px 40px;
+}
+.about ul{
+    list-style: none;
+    padding:0;
+}
+.about h3{
+    margin-bottom: 10px;
+    color: grey;
+    
+}
+.about ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.main ul{
+    list-style: none;
+    padding: 0;
+}
+.main h3{
+    margin-bottom: 10px;
+    color: grey;
+    
+}
+.main ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.news h3{
+    color: gray;
+    margin-bottom: 10px;
+}
+

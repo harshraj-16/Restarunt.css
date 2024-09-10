@@ -1,4 +1,4 @@
 # Restarunt.css
 
-  Restarunt website css
+  Restarunt website css.
   
